@@ -24,8 +24,8 @@ public class ScoreActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_score);
 
-        username = getIntent().getStringExtra("username");
-        score = getIntent().getIntExtra("score", 0);
+        username = getIntent().getStringExtra(MainActivity.USERNAME_KEY);
+        score = getIntent().getIntExtra(QuizActivity.SCORE, 0);
         message = findViewById(R.id.message);
         message.setText(quizSummary());
     }

@@ -14,6 +14,8 @@ import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static String USERNAME_KEY = "username";
+
     private EditText username;
     private View playButton;
 

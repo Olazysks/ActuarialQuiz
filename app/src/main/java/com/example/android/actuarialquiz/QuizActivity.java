@@ -12,6 +12,8 @@ import android.widget.Toast;
 
 public class QuizActivity extends AppCompatActivity {
 
+    public static String SCORE = "score";
+
     private String username;
 
     private RadioButton question1ans1;
@@ -42,7 +44,7 @@ public class QuizActivity extends AppCompatActivity {
 
         // Taking username from previous activity - MainAvtivity
 
-        username = getIntent().getStringExtra("username");
+        username = getIntent().getStringExtra(MainActivity.USERNAME_KEY);
 
         // Finding appropriate answers to check their correctness
 
@@ -102,8 +104,8 @@ public class QuizActivity extends AppCompatActivity {
                 // as extra parameters
 
                 startActivity(new Intent(QuizActivity.this, ScoreActivity.class)
-                        .putExtra("score", score)
-                        .putExtra("username", username));
+                        .putExtra(SCORE, score)
+                        .putExtra(MainActivity.USERNAME_KEY, username));
             }
         });
     }
