@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_small">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/corner_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blue"
+                    android:fontFamily="@font/kaushan_script"
+                    android:padding="@dimen/margin_small"
+                    android:text="@string/question1"
+                    android:textColor="@color/textColorDark"
+                    android:textSize="@dimen/medium" />
+
+                <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/margin_small">
+
+                    <RadioButton
+                        android:id="@+id/question1_ans1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_medium"
+                        android:fontFamily="@font/kaushan_script"
+                        android:text="@string/question1_ans1"
+                        android:textSize="@dimen/medium" />
+
+                    <RadioButton
+                        android:id="@+id/question1_ans2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:fontFamily="@font/kaushan_script"
+                        android:text="@string/question1_ans2"
+                        android:textSize="@dimen/medium" />
+
+                    <RadioButton
+                        android:id="@+id/question1_ans3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_medium"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:fontFamily="@font/kaushan_script"
+                        android:text="@string/question1_ans3"
+                        android:textSize="@dimen/medium" />
+                </RadioGroup>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            app:cardCornerRadius="@dimen/corner_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blue"
+                    android:fontFamily="@font/kaushan_script"
+                    android:padding="@dimen/margin_small"
+                    android:text="@string/question2"
+                    android:textColor="@color/textColorDark"
+                    android:textSize="@dimen/medium" />
+
+                <CheckBox
+                    android:id="@+id/question2_ans1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:fontFamily="@font/kaushan_script"
+                    android:text="@string/question2_ans1"
+                    android:textSize="@dimen/medium" />
+
+                <CheckBox
+                    android:id="@+id/question2_ans2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/kaushan_script"
+                    android:text="@string/question2_ans2"
+                    android:textSize="@dimen/medium" />
+
+                <CheckBox
+                    android:id="@+id/question2_ans3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/kaushan_script"
+                    android:text="@string/question2_ans3"
+                    android:textSize="@dimen/medium" />
+
+                <CheckBox
+                    android:id="@+id/question2_ans4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_medium"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/kaushan_script"
+                    android:text="@string/question2_ans4"
+                    android:textSize="@dimen/medium" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            app:cardCornerRadius="@dimen/corner_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blue"
+                    android:fontFamily="@font/kaushan_script"
+                    android:padding="@dimen/margin_small"
+                    android:text="@string/question3"
+                    android:textColor="@color/textColorDark"
+                    android:textSize="@dimen/medium" />
+
+                <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/margin_small">
+
+                    <RadioButton
+                        android:id="@+id/question3_ans1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_medium"
+                        android:fontFamily="@font/kaushan_script"
+                        android:text="@string/question3_ans1"
+                        android:textSize="@dimen/medium" />
+
+                    <RadioButton
+                        android:id="@+id/question3_ans2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:fontFamily="@font/kaushan_script"
+                        android:text="@string/question3_ans2"
+                        android:textSize="@dimen/medium" />
+
+                    <RadioButton
+                        android:id="@+id/question3_ans3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:fontFamily="@font/kaushan_script"
+                        android:text="@string/question3_ans3"
+                        android:textSize="@dimen/medium" />
+
+                    <RadioButton
+                        android:id="@+id/question3_ans4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_medium"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:fontFamily="@font/kaushan_script"
+                        android:text="@string/question3_ans4"
+                        android:textSize="@dimen/medium" />
+
+                </RadioGroup>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            app:cardCornerRadius="@dimen/corner_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blue"
+                    android:fontFamily="@font/kaushan_script"
+                    android:padding="@dimen/margin_small"
+                    android:text="@string/question4"
+                    android:textColor="@color/textColorDark"
+                    android:textSize="@dimen/medium" />
+
+                <EditText
+                    android:id="@+id/question4_ans"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/question4_hint"
+                    android:inputType="text" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            app:cardCornerRadius="@dimen/corner_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blue"
+                    android:fontFamily="@font/kaushan_script"
+                    android:padding="@dimen/margin_small"
+                    android:text="@string/question5"
+                    android:textColor="@color/textColorDark"
+                    android:textSize="@dimen/medium" />
+
+                <CheckBox
+                    android:id="@+id/question5_ans1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:fontFamily="@font/kaushan_script"
+                    android:text="@string/question5_ans1"
+                    android:textSize="@dimen/medium" />
+
+                <CheckBox
+                    android:id="@+id/question5_ans2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/kaushan_script"
+                    android:text="@string/question5_ans2"
+                    android:textSize="@dimen/medium" />
+
+                <CheckBox
+                    android:id="@+id/question5_ans3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/kaushan_script"
+                    android:text="@string/question5_ans3"
+                    android:textSize="@dimen/medium" />
+
+                <CheckBox
+                    android:id="@+id/question5_ans4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/kaushan_script"
+                    android:text="@string/question5_ans4"
+                    android:textSize="@dimen/medium" />
+
+                <CheckBox
+                    android:id="@+id/question5_ans5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/kaushan_script"
+                    android:text="@string/question5_ans5"
+                    android:textSize="@dimen/medium" />
+
+                <CheckBox
+                    android:id="@+id/question5_ans6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/kaushan_script"
+                    android:text="@string/question5_ans6"
+                    android:textSize="@dimen/medium" />
+
+                <CheckBox
+                    android:id="@+id/question5_ans7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_medium"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/kaushan_script"
+                    android:text="@string/question5_ans7"
+                    android:textSize="@dimen/medium" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            app:cardCornerRadius="@dimen/corner_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blue"
+                    android:fontFamily="@font/kaushan_script"
+                    android:padding="@dimen/margin_small"
+                    android:text="@string/question6"
+                    android:textColor="@color/textColorDark"
+                    android:textSize="@dimen/medium" />
+
+                <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/margin_small">
+
+                    <RadioButton
+                        android:id="@+id/question6_ans1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_medium"
+                        android:fontFamily="@font/kaushan_script"
+                        android:text="@string/question6_ans1"
+                        android:textSize="@dimen/medium" />
+
+                    <RadioButton
+                        android:id="@+id/question6_ans2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:fontFamily="@font/kaushan_script"
+                        android:text="@string/question6_ans2"
+                        android:textSize="@dimen/medium" />
+
+                    <RadioButton
+                        android:id="@+id/question6_ans3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:fontFamily="@font/kaushan_script"
+                        android:text="@string/question6_ans3"
+                        android:textSize="@dimen/medium" />
+
+                    <RadioButton
+                        android:id="@+id/question6_ans4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_medium"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:fontFamily="@font/kaushan_script"
+                        android:text="@string/question6_ans4"
+                        android:textSize="@dimen/medium" />
+
+                </RadioGroup>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            app:cardCornerRadius="@dimen/corner_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blue"
+                    android:fontFamily="@font/kaushan_script"
+                    android:padding="@dimen/margin_small"
+                    android:text="@string/question7"
+                    android:textColor="@color/textColorDark"
+                    android:textSize="@dimen/medium" />
+
+                <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/margin_small">
+
+                    <RadioButton
+                        android:id="@+id/question7_ans1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_medium"
+                        android:fontFamily="@font/kaushan_script"
+                        android:text="@string/question7_ans1"
+                        android:textSize="@dimen/medium" />
+
+                    <RadioButton
+                        android:id="@+id/question7_ans2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:fontFamily="@font/kaushan_script"
+                        android:text="@string/question7_ans2"
+                        android:textSize="@dimen/medium" />
+
+                    <RadioButton
+                        android:id="@+id/question7_ans3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:fontFamily="@font/kaushan_script"
+                        android:text="@string/question7_ans3"
+                        android:textSize="@dimen/medium" />
+
+                    <RadioButton
+                        android:id="@+id/question7_ans4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_medium"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:fontFamily="@font/kaushan_script"
+                        android:text="@string/question7_ans4"
+                        android:textSize="@dimen/medium" />
+
+                </RadioGroup>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:id="@+id/submit"
+            style="?borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:background="@color/blue"
+            android:fontFamily="@font/kaushan_script"
+            android:text="@string/submit"
+            android:textColor="@color/textColorDark"
+            android:textSize="@dimen/medium"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
